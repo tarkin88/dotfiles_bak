@@ -1,0 +1,10 @@
+#!/bin/env bash
+
+case "$(echo -e "Floorp\nSlack\nCode\nSpotify\n1Password\nCalculator" | dmenu -i -l 7 -c -p "Execute" )" in
+    Floorp) exec floorp;;
+    Slack) exec slack;;
+    1Password) exec 1password;;
+    Calculator) exec galculator;;
+    Spotify) exec spotify;;
+    Code) exec code;;
+esac

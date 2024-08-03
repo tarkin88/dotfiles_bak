@@ -1,0 +1,14 @@
+#!/bin/env bash
+DIRS_OPTS="kitty --class floating -e yazy"
+FILES_OPTS="kitty --class float  -e nvim"
+
+case "$(echo -e "neovim\nbspwm\nsxhkd\nautostart\nbin\nprojects\npolybar" | dmenu -l 10 -c -i -p \
+    "Open")" in
+        bin) ${DIRS_OPTS} ~/.local/bin/;;
+        projects) ${DIRS_OPTS} ~/Projects/;;
+        polybar) ${DIRS_OPTS} ~/.config/polybar/;;
+        neovim) ${DIRS_OPTS} ~/.config/nvim/;;
+        bspwm)  ${FILES_OPTS} ~/.config/bspwm/bspwmrc;;
+        sxhkd)  ${FILES_OPTS} ~/.config/sxhkd/sxhkdrc;;
+        autostart) ${FILES_OPTS} ~/.local/bin/autostart.sh;;
+esac

@@ -1,0 +1,2 @@
+#!/bin/env bash
+notify-send "Attention" "screen locking in 1 minute"

@@ -1,0 +1,30 @@
+#!/bin/bash
+
+_take_ss() {
+	DIR=~/Pictures/Screenshots
+	FILE=screenshot_$(date +%Y-%m-%d--%H:%M:%S).png
+
+	if [ ! -d "${DIR}" ]; then
+		mkdir -p "${DIR}"
+	fi
+
+	case "${1}" in
+	f)
+		maim "${DIR}/$FILE" && xclip -selection clipboard -t image/png "${DIR}/${FILE}"
+		;;
+	s)
+		maim -s "${DIR}/$FILE" && xclip -selection clipboard -t image/png "${DIR}/${FILE}"
+		;;
+	d)
+		maim -d 3 "${DIR}/$FILE" && xclip -selection clipboard -t image/png "${DIR}/${FILE}"
+		;;
+	esac
+notify-send "Screenshot Saved as:" "${FILE}" -i "${DIR}/$FILE"
+}
+
+case "$(echo -e "Fullscreen\nSelect\nDelay" | dmenu -l 3 -i  -c -p \
+	"Options")" in
+Fullscreen) _take_ss f ;;
+Select) _take_ss s ;;
+Delay) t_ake_ss d ;;
+esac

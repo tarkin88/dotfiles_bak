@@ -1,0 +1,71 @@
+#!/bin/sh
+# List of modules to unload, space seperated. Edit depending on your hardware and preferences.
+modlist=""
+
+# Bus list for runtime pm. Probably shouldn't touch this.
+#buslist="pci spi i2c"
+buslist="pci i2c" # spi didn't work in Fedora 15 - DL
+
+case "$(echo -e "On\nOff" | rofi ${ROFI_DMENU_OPTS} -p "Powersave" )" in
+    On) 
+        # Enable laptop mode
+        sudo echo 5 > /proc/sys/vm/laptop_mode
+        
+        # Disable NMI watchdog
+        sudo echo 0 > /proc/sys/kernel/nmi_watchdog
+        
+        # Less VM disk activity. Suggested by powertop
+        sudo echo 1500 > /proc/sys/vm/dirty_writeback_centisecs
+        
+        # Intel power saving
+        sudo echo Y > /sys/module/snd_hda_intel/parameters/power_save_controller
+        sudo echo 1 > /sys/module/snd_hda_intel/parameters/power_save
+        
+        # Wireless adapter power saving
+        sudo iwconfig wlan0 power on
+        
+        # Disable Wake-on-LAN
+        # ethtool -s p34p1 wol d
+        
+        # USB powersaving
+        for i in /sys/bus/usb/devices/*/power/autosuspend; do
+            sudo echo 1 > $i
+        done
+        
+        
+        # Disable hardware modules to save power
+        for mod in $modlist; do
+            sudo grep $mod /proc/modules >/dev/null || continue
+            sudo modprobe -r $mod 2>/dev/null
+        done
+        
+        # Enable runtime power management. Suggested by powertop.
+        for bus in $buslist; do
+            for i in /sys/bus/$bus/devices/*/power/control; do
+                sudo echo auto > $i
+            done
+        done
+    ;;
+    Off)    
+        # Return settings to default on AC power
+        echo 0 > /proc/sys/vm/laptop_mode
+        echo 1 > /proc/sys/kernel/nmi_watchdog
+        echo 500 > /proc/sys/vm/dirty_writeback_centisecs
+        echo N > /sys/module/snd_hda_intel/parameters/power_save_controller
+        echo 0 > /sys/module/snd_hda_intel/parameters/power_save
+        iwconfig wlan0 power off
+        for i in /sys/bus/usb/devices/*/power/autosuspend; do
+            echo 2 > $i
+        done
+        for mod in $modlist; do
+            if ! lsmod | grep $mod; then
+                modprobe $mod 2>/dev/null
+            fi
+        done
+        for bus in $buslist; do
+            for i in /sys/bus/$bus/devices/*/power/control; do
+                echo on > $i
+            done
+        done
+    ;;
+esac

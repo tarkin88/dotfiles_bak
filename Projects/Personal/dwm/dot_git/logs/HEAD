@@ -1,0 +1,63 @@
+0000000000000000000000000000000000000000 5687f4696472ba6029bbba18e293e3e8b9e154ea Francisco Suarez <franksg88@gmail.com> 1722284697 -0600	clone: from https://git.suckless.org/dwm
+5687f4696472ba6029bbba18e293e3e8b9e154ea 5687f4696472ba6029bbba18e293e3e8b9e154ea Francisco Suarez <franksg88@gmail.com> 1722284717 -0600	checkout: moving from master to base
+5687f4696472ba6029bbba18e293e3e8b9e154ea 8195cda2e6f9ff96ec023376def645e9d34b930b Francisco Suarez <franksg88@gmail.com> 1722284749 -0600	commit: base dir
+8195cda2e6f9ff96ec023376def645e9d34b930b 8195cda2e6f9ff96ec023376def645e9d34b930b Francisco Suarez <franksg88@gmail.com> 1722284766 -0600	checkout: moving from base to personal
+8195cda2e6f9ff96ec023376def645e9d34b930b 8195cda2e6f9ff96ec023376def645e9d34b930b Francisco Suarez <franksg88@gmail.com> 1722285206 -0600	checkout: moving from personal to base
+8195cda2e6f9ff96ec023376def645e9d34b930b 8195cda2e6f9ff96ec023376def645e9d34b930b Francisco Suarez <franksg88@gmail.com> 1722285216 -0600	checkout: moving from base to xrdb
+8195cda2e6f9ff96ec023376def645e9d34b930b 8195cda2e6f9ff96ec023376def645e9d34b930b Francisco Suarez <franksg88@gmail.com> 1722285328 -0600	reset: moving to HEAD
+8195cda2e6f9ff96ec023376def645e9d34b930b f2bf6fc05065b45ac9b9583086450192a5a6c509 Francisco Suarez <franksg88@gmail.com> 1722285486 -0600	commit: feat: xrdb added
+f2bf6fc05065b45ac9b9583086450192a5a6c509 8195cda2e6f9ff96ec023376def645e9d34b930b Francisco Suarez <franksg88@gmail.com> 1722285498 -0600	checkout: moving from xrdb to personal
+8195cda2e6f9ff96ec023376def645e9d34b930b f2bf6fc05065b45ac9b9583086450192a5a6c509 Francisco Suarez <franksg88@gmail.com> 1722285503 -0600	merge xrdb: Fast-forward
+f2bf6fc05065b45ac9b9583086450192a5a6c509 8195cda2e6f9ff96ec023376def645e9d34b930b Francisco Suarez <franksg88@gmail.com> 1722285990 -0600	checkout: moving from personal to base
+8195cda2e6f9ff96ec023376def645e9d34b930b 8195cda2e6f9ff96ec023376def645e9d34b930b Francisco Suarez <franksg88@gmail.com> 1722285999 -0600	checkout: moving from base to notitle
+8195cda2e6f9ff96ec023376def645e9d34b930b 5b40e440911188214145d888466ebc5431bd4f14 Francisco Suarez <franksg88@gmail.com> 1722286287 -0600	commit: feat: remove title from status bar
+5b40e440911188214145d888466ebc5431bd4f14 f2bf6fc05065b45ac9b9583086450192a5a6c509 Francisco Suarez <franksg88@gmail.com> 1722286298 -0600	checkout: moving from notitle to personal
+f2bf6fc05065b45ac9b9583086450192a5a6c509 be58ecef3fae7ea36b2203f5bec0132dc77c6c39 Francisco Suarez <franksg88@gmail.com> 1722286301 -0600	merge notitle: Merge made by the 'ort' strategy.
+be58ecef3fae7ea36b2203f5bec0132dc77c6c39 8195cda2e6f9ff96ec023376def645e9d34b930b Francisco Suarez <franksg88@gmail.com> 1722286349 -0600	checkout: moving from personal to base
+8195cda2e6f9ff96ec023376def645e9d34b930b 8195cda2e6f9ff96ec023376def645e9d34b930b Francisco Suarez <franksg88@gmail.com> 1722286369 -0600	checkout: moving from base to scratchpads
+8195cda2e6f9ff96ec023376def645e9d34b930b 2e4a13bec1bed2b556f1de8ae26fd2a3c2edb07d Francisco Suarez <franksg88@gmail.com> 1722286573 -0600	commit: feat: introduces scratchpads
+2e4a13bec1bed2b556f1de8ae26fd2a3c2edb07d be58ecef3fae7ea36b2203f5bec0132dc77c6c39 Francisco Suarez <franksg88@gmail.com> 1722286588 -0600	checkout: moving from scratchpads to personal
+be58ecef3fae7ea36b2203f5bec0132dc77c6c39 c9643b77e8389828d4c90b37e832918f458d09b6 Francisco Suarez <franksg88@gmail.com> 1722286696 -0600	commit (merge): Merge branch 'scratchpads' into personal
+c9643b77e8389828d4c90b37e832918f458d09b6 8195cda2e6f9ff96ec023376def645e9d34b930b Francisco Suarez <franksg88@gmail.com> 1722286699 -0600	checkout: moving from personal to base
+8195cda2e6f9ff96ec023376def645e9d34b930b 8195cda2e6f9ff96ec023376def645e9d34b930b Francisco Suarez <franksg88@gmail.com> 1722286985 -0600	checkout: moving from base to pertag
+8195cda2e6f9ff96ec023376def645e9d34b930b ac0130e180f1e8d668a62c20016a078bd2586dfc Francisco Suarez <franksg88@gmail.com> 1722287070 -0600	commit: feat: per tag rules
+ac0130e180f1e8d668a62c20016a078bd2586dfc c9643b77e8389828d4c90b37e832918f458d09b6 Francisco Suarez <franksg88@gmail.com> 1722287089 -0600	checkout: moving from pertag to personal
+c9643b77e8389828d4c90b37e832918f458d09b6 d81c165cc7c845498d71e4ee6b74423b5f115d4f Francisco Suarez <franksg88@gmail.com> 1722287093 -0600	merge pertag: Merge made by the 'ort' strategy.
+d81c165cc7c845498d71e4ee6b74423b5f115d4f 8195cda2e6f9ff96ec023376def645e9d34b930b Francisco Suarez <franksg88@gmail.com> 1722287097 -0600	checkout: moving from personal to base
+8195cda2e6f9ff96ec023376def645e9d34b930b 8195cda2e6f9ff96ec023376def645e9d34b930b Francisco Suarez <franksg88@gmail.com> 1722287196 -0600	checkout: moving from base to dragmfact
+8195cda2e6f9ff96ec023376def645e9d34b930b ba382d4cad9c43e8679917ecf1db24a2ae4c31b3 Francisco Suarez <franksg88@gmail.com> 1722287242 -0600	commit: feat: change mfact with mouse
+ba382d4cad9c43e8679917ecf1db24a2ae4c31b3 d81c165cc7c845498d71e4ee6b74423b5f115d4f Francisco Suarez <franksg88@gmail.com> 1722287257 -0600	checkout: moving from dragmfact to personal
+d81c165cc7c845498d71e4ee6b74423b5f115d4f bf785745e1867b1403ababa829cb95ab6266ba7b Francisco Suarez <franksg88@gmail.com> 1722287261 -0600	merge dragmfact: Merge made by the 'ort' strategy.
+bf785745e1867b1403ababa829cb95ab6266ba7b 8195cda2e6f9ff96ec023376def645e9d34b930b Francisco Suarez <franksg88@gmail.com> 1722287265 -0600	checkout: moving from personal to base
+8195cda2e6f9ff96ec023376def645e9d34b930b 8195cda2e6f9ff96ec023376def645e9d34b930b Francisco Suarez <franksg88@gmail.com> 1722287341 -0600	checkout: moving from base to fullscreen
+8195cda2e6f9ff96ec023376def645e9d34b930b 3464c830998f542ef66c353ac40c04825129c516 Francisco Suarez <franksg88@gmail.com> 1722287364 -0600	commit: feat: added a fullscren function
+3464c830998f542ef66c353ac40c04825129c516 bf785745e1867b1403ababa829cb95ab6266ba7b Francisco Suarez <franksg88@gmail.com> 1722287379 -0600	checkout: moving from fullscreen to personal
+bf785745e1867b1403ababa829cb95ab6266ba7b 96c43a71eabfb46da9937dac8e4b9bcf87c7f0c5 Francisco Suarez <franksg88@gmail.com> 1722287382 -0600	merge fullscreen: Merge made by the 'ort' strategy.
+96c43a71eabfb46da9937dac8e4b9bcf87c7f0c5 8195cda2e6f9ff96ec023376def645e9d34b930b Francisco Suarez <franksg88@gmail.com> 1722287386 -0600	checkout: moving from personal to base
+8195cda2e6f9ff96ec023376def645e9d34b930b 8195cda2e6f9ff96ec023376def645e9d34b930b Francisco Suarez <franksg88@gmail.com> 1722287393 -0600	checkout: moving from base to floatrules
+8195cda2e6f9ff96ec023376def645e9d34b930b 87f38963f4bbb9fe39059f2e3aa27247246c73fd Francisco Suarez <franksg88@gmail.com> 1722287448 -0600	commit: feat: added float windows rules
+87f38963f4bbb9fe39059f2e3aa27247246c73fd 96c43a71eabfb46da9937dac8e4b9bcf87c7f0c5 Francisco Suarez <franksg88@gmail.com> 1722287465 -0600	checkout: moving from floatrules to personal
+96c43a71eabfb46da9937dac8e4b9bcf87c7f0c5 cb5bb27154be69ef0d78567bae0b6869c07d7ca7 Francisco Suarez <franksg88@gmail.com> 1722287858 -0600	commit (merge): Merge branch 'floatrules' into personal
+cb5bb27154be69ef0d78567bae0b6869c07d7ca7 8195cda2e6f9ff96ec023376def645e9d34b930b Francisco Suarez <franksg88@gmail.com> 1722287865 -0600	checkout: moving from personal to base
+8195cda2e6f9ff96ec023376def645e9d34b930b 8195cda2e6f9ff96ec023376def645e9d34b930b Francisco Suarez <franksg88@gmail.com> 1722287873 -0600	checkout: moving from base to hidevacant
+8195cda2e6f9ff96ec023376def645e9d34b930b 8d78164774fce4bbe25ee344b265adb7c5673cd7 Francisco Suarez <franksg88@gmail.com> 1722287894 -0600	commit: feat: hide vacant tags
+8d78164774fce4bbe25ee344b265adb7c5673cd7 cb5bb27154be69ef0d78567bae0b6869c07d7ca7 Francisco Suarez <franksg88@gmail.com> 1722287914 -0600	checkout: moving from hidevacant to personal
+cb5bb27154be69ef0d78567bae0b6869c07d7ca7 60d26dfe887dc74a520e06f9fe36d88a2532570a Francisco Suarez <franksg88@gmail.com> 1722287918 -0600	merge hidevacant: Merge made by the 'ort' strategy.
+60d26dfe887dc74a520e06f9fe36d88a2532570a 8195cda2e6f9ff96ec023376def645e9d34b930b Francisco Suarez <franksg88@gmail.com> 1722287977 -0600	checkout: moving from personal to base
+8195cda2e6f9ff96ec023376def645e9d34b930b 8195cda2e6f9ff96ec023376def645e9d34b930b Francisco Suarez <franksg88@gmail.com> 1722287980 -0600	checkout: moving from base to focusonnetactive
+8195cda2e6f9ff96ec023376def645e9d34b930b 3afe61e7e2263492be1360e0d4fbec38f4b82e0a Francisco Suarez <franksg88@gmail.com> 1722288008 -0600	commit: feat: change focus when required
+3afe61e7e2263492be1360e0d4fbec38f4b82e0a 8195cda2e6f9ff96ec023376def645e9d34b930b Francisco Suarez <franksg88@gmail.com> 1722288023 -0600	checkout: moving from focusonnetactive to base
+8195cda2e6f9ff96ec023376def645e9d34b930b 60d26dfe887dc74a520e06f9fe36d88a2532570a Francisco Suarez <franksg88@gmail.com> 1722288025 -0600	checkout: moving from base to personal
+60d26dfe887dc74a520e06f9fe36d88a2532570a 6fbca27bca73bcda93e271cb758c554dddaac753 Francisco Suarez <franksg88@gmail.com> 1722288031 -0600	merge focusonnetactive: Merge made by the 'ort' strategy.
+6fbca27bca73bcda93e271cb758c554dddaac753 8195cda2e6f9ff96ec023376def645e9d34b930b Francisco Suarez <franksg88@gmail.com> 1722288035 -0600	checkout: moving from personal to base
+8195cda2e6f9ff96ec023376def645e9d34b930b 8195cda2e6f9ff96ec023376def645e9d34b930b Francisco Suarez <franksg88@gmail.com> 1722288183 -0600	checkout: moving from base to nametag
+8195cda2e6f9ff96ec023376def645e9d34b930b dce5663a47e071da737ead07482a9451e02ccc36 Francisco Suarez <franksg88@gmail.com> 1722288261 -0600	commit: feat: name tags with current windows in the tag
+dce5663a47e071da737ead07482a9451e02ccc36 6fbca27bca73bcda93e271cb758c554dddaac753 Francisco Suarez <franksg88@gmail.com> 1722288276 -0600	checkout: moving from nametag to personal
+6fbca27bca73bcda93e271cb758c554dddaac753 6fbca27bca73bcda93e271cb758c554dddaac753 Francisco Suarez <franksg88@gmail.com> 1722288375 -0600	reset: moving to HEAD
+6fbca27bca73bcda93e271cb758c554dddaac753 2f9a093604e95f7a5414ede0f275719b98337141 Francisco Suarez <franksg88@gmail.com> 1722288588 -0600	commit: fix: hide_vacant left unused variables
+2f9a093604e95f7a5414ede0f275719b98337141 2f9a093604e95f7a5414ede0f275719b98337141 Francisco Suarez <franksg88@gmail.com> 1722288809 -0600	reset: moving to HEAD
+2f9a093604e95f7a5414ede0f275719b98337141 8195cda2e6f9ff96ec023376def645e9d34b930b Francisco Suarez <franksg88@gmail.com> 1722288827 -0600	checkout: moving from personal to base
+8195cda2e6f9ff96ec023376def645e9d34b930b 8195cda2e6f9ff96ec023376def645e9d34b930b Francisco Suarez <franksg88@gmail.com> 1722288840 -0600	checkout: moving from base to nametag
+8195cda2e6f9ff96ec023376def645e9d34b930b 8195cda2e6f9ff96ec023376def645e9d34b930b Francisco Suarez <franksg88@gmail.com> 1722290518 -0600	reset: moving to HEAD
+8195cda2e6f9ff96ec023376def645e9d34b930b 2f9a093604e95f7a5414ede0f275719b98337141 Francisco Suarez <franksg88@gmail.com> 1722290527 -0600	checkout: moving from nametag to personal
+2f9a093604e95f7a5414ede0f275719b98337141 b33ab496b6e6443092fe0187829249f080461f4a Francisco Suarez <franksg88@gmail.com> 1722708298 -0600	commit: feat: latest changes

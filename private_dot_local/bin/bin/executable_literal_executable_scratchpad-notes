@@ -1,0 +1,16 @@
+#!/bin/env bash
+DIR=~/Documents/Notes/$(date +%Y)/$(date +%m)
+FILE_NAME=note_$(date +%Y-%m-%d).md
+FILE="${DIR}/${FILE_NAME}"
+
+
+if [ ! -d "${DIR}" ] ; then
+    mkdir -p "${DIR}"
+fi
+
+if [ ! -f "${FILE}" ] ; then
+    touch "${FILE}"
+    echo -e "# ToDo\n$(date +%Y-%m-%d)\n\n* [ ]  " >> "${FILE}"
+fi
+
+exec st -c scratchpad-notes -g 85x43-0-0 -e nvim "${FILE}"

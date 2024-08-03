@@ -1,0 +1,12 @@
+0000000000000000000000000000000000000000 8195cda2e6f9ff96ec023376def645e9d34b930b Francisco Suarez <franksg88@gmail.com> 1722284766 -0600	branch: Created from HEAD
+8195cda2e6f9ff96ec023376def645e9d34b930b f2bf6fc05065b45ac9b9583086450192a5a6c509 Francisco Suarez <franksg88@gmail.com> 1722285503 -0600	merge xrdb: Fast-forward
+f2bf6fc05065b45ac9b9583086450192a5a6c509 be58ecef3fae7ea36b2203f5bec0132dc77c6c39 Francisco Suarez <franksg88@gmail.com> 1722286301 -0600	merge notitle: Merge made by the 'ort' strategy.
+be58ecef3fae7ea36b2203f5bec0132dc77c6c39 c9643b77e8389828d4c90b37e832918f458d09b6 Francisco Suarez <franksg88@gmail.com> 1722286696 -0600	commit (merge): Merge branch 'scratchpads' into personal
+c9643b77e8389828d4c90b37e832918f458d09b6 d81c165cc7c845498d71e4ee6b74423b5f115d4f Francisco Suarez <franksg88@gmail.com> 1722287093 -0600	merge pertag: Merge made by the 'ort' strategy.
+d81c165cc7c845498d71e4ee6b74423b5f115d4f bf785745e1867b1403ababa829cb95ab6266ba7b Francisco Suarez <franksg88@gmail.com> 1722287261 -0600	merge dragmfact: Merge made by the 'ort' strategy.
+bf785745e1867b1403ababa829cb95ab6266ba7b 96c43a71eabfb46da9937dac8e4b9bcf87c7f0c5 Francisco Suarez <franksg88@gmail.com> 1722287382 -0600	merge fullscreen: Merge made by the 'ort' strategy.
+96c43a71eabfb46da9937dac8e4b9bcf87c7f0c5 cb5bb27154be69ef0d78567bae0b6869c07d7ca7 Francisco Suarez <franksg88@gmail.com> 1722287858 -0600	commit (merge): Merge branch 'floatrules' into personal
+cb5bb27154be69ef0d78567bae0b6869c07d7ca7 60d26dfe887dc74a520e06f9fe36d88a2532570a Francisco Suarez <franksg88@gmail.com> 1722287918 -0600	merge hidevacant: Merge made by the 'ort' strategy.
+60d26dfe887dc74a520e06f9fe36d88a2532570a 6fbca27bca73bcda93e271cb758c554dddaac753 Francisco Suarez <franksg88@gmail.com> 1722288031 -0600	merge focusonnetactive: Merge made by the 'ort' strategy.
+6fbca27bca73bcda93e271cb758c554dddaac753 2f9a093604e95f7a5414ede0f275719b98337141 Francisco Suarez <franksg88@gmail.com> 1722288588 -0600	commit: fix: hide_vacant left unused variables
+2f9a093604e95f7a5414ede0f275719b98337141 b33ab496b6e6443092fe0187829249f080461f4a Francisco Suarez <franksg88@gmail.com> 1722708298 -0600	commit: feat: latest changes

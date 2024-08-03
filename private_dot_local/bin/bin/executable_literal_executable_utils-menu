@@ -1,0 +1,7 @@
+#!/bin/env bash
+
+
+case "$(echo -e "pass-generator" | rofi ${ROFI_DMENU_OPTS} -p \
+    "Run" -l 7)" in
+    pass-generator) bash ~/.local/bin/dmenu-password-generator;;
+esac

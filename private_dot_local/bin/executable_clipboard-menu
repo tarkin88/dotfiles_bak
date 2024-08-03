@@ -1,0 +1,3 @@
+#! /bin/env bash
+
+greenclip print | grep . | dmenu -c -l 7 -i -p "clipboard" | xargs -r -d'\n' -I '{}' greenclip print '{}'
