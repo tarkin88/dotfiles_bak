@@ -14,11 +14,13 @@ restart dunst
 eval "$(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh)"
 dbus-update-activation-environment --all &
 restart dbus-launch --sh-syntax
-feh --bg-fill ~/Pictures/Walls/green/everforest-forest.jpg &
+# feh --bg-fill ~/Pictures/Walls/green/everforest-forest.jpg &
+betterlockscreen -w &
 greenclip daemon &
 # bash ~/.local/bin/status_updater.sh &
 slstatus &
 compfy --daemon 
+udiskie -a &
 xset -dpms
 xset s 840 900 # dim at 14 min and lock at 15 min
 xss-lock -n ~/.local/bin/notify-suspend -- betterlockscreen -l dimblur &

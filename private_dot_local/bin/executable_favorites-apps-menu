@@ -1,7 +1,7 @@
 #!/bin/env bash
 
-case "$(echo -e "Floorp\nSlack\nCode\n1Password\nCalculator" | dmenu -i -l 7 -c -p "Execute" )" in
-    Floorp) exec floorp;;
+case "$(echo -e "Chrome\nSlack\nCode\n1Password\nCalculator" | dmenu -i -l 7 -c -p "Execute" )" in
+    Chrome) exec google-chrome-stable;;
     Slack) exec slack;;
     1Password) exec 1password;;
     Calculator) exec galculator;;
