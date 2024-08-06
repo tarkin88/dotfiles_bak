@@ -24,7 +24,7 @@ export EDITOR="nvim"
 export VISUAL=$EDITOR
 
 # FILE BROWSER
-export BROWSER="floorp"
+export BROWSER="google-chrome"
 
 # TERM
 export TERM=st
