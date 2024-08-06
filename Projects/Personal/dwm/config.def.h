@@ -47,10 +47,10 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class          instance      title       tags mask     isfloating   monitor    float x,y,w,h         floatborderpx*/
-	{ "floorp",       NULL,         NULL,       1 << 0,       0,           -1,        50,50,500,500,        5 },
 	{ "Code",         NULL,         NULL,       1 << 1,       0,           -1,        50,50,500,500,        5 },
 	{ "Slack",        NULL,         NULL,       1 << 3,       0,           -1,        50,50,500,500,        5 },
 	{ "Galculator",   NULL,         NULL,       0,            1,           -1,        50,50,300,380,        5 },
+	{ "1Password",    NULL,         NULL,       0,            1,           -1,        50,50,900,700,        5 },
 	{ NULL,           "spterm",     NULL,       SPTAG(0),     0,           -1,        50,50,500,500,        2 },
 	{ NULL,           "spfloatterm",NULL,       SPTAG(1),     1,           -1,        50,10,1900,900,       3 },
 	{ NULL,           "spfm",       NULL,       SPTAG(2),     1,           -1,        50,80,1400,500,       4 },
