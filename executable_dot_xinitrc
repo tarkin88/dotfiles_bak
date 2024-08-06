@@ -25,5 +25,5 @@ if [ -z "$DBUS_SESSION_BUS_ADDRESS" ]; then
   dbus-update-activation-environment --verbose --all &
 fi
 
-# exec dusk
-exec dwm
+exec dusk
+# exec dwm
